@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Explore"
+            android:icon="@drawable/product"
+            android:title="Explore All" />
+        <item
+            android:id="@+id/my_Profile"
+            android:icon="@drawable/aboutus"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/my_cart"
+            android:icon="@drawable/cart"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/my_order"
+            android:icon="@drawable/order"
+            android:title="My Order" />
+        <item
+            android:id="@+id/my_wishlist"
+            android:icon="@drawable/wishlist"
+            android:title="My Wishlist" />
+
+        <item
+            android:id="@+id/Settings"
+            android:icon="@drawable/setting"
+            android:title="Settings" />
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Login" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/aboutus"
+                android:title="About us" />
+        </menu>
+    </item>
+
+</menu>
